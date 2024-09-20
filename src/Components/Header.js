@@ -7,18 +7,18 @@ function Header() {
 
             <header>
                 <div className="container">
-                <div className="header-wrapper">
-                    <div className="logo">
-                        TODO
-                    </div>
+                    <div className="header-wrapper">
+                        <div className="logo">
+                            <Link to="/"> TODO</Link>
+                        </div>
 
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to = "/aboutus">About</Link> </li>
-                        <li>Contact</li>
-                        <li>Community</li>
-                    </ul>
-                </div>
+                        <ul>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/aboutus">About</Link> </li>
+                            <li><Link to="/contactus">Contact</Link></li>
+                            <li><Link to="/community">Community</Link></li>
+                        </ul>
+                    </div>
                 </div>
             </header>
 

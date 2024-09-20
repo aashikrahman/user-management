@@ -5,6 +5,8 @@ import Header from './Components/Header';
 import List from './List/List';
 import About from './Pages/About';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contactus from './Pages/Contactus';
+import Community from './Pages/Community';
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
 
           <Route path='/' element={<List />} />
           <Route path='/aboutus' element={<About />} />
-
+          <Route path='/contactus' element={<Contactus />} />
+          <Route path='/community' element={<Community />} />
 
         </Routes>
       </BrowserRouter>
